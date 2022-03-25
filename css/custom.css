@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+* {
+  font-family: monospace;
+}
+
+.btn {
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btn.oddiy {
+  background-color: #adaaaa;
+}
+
+.btn.oddiy:hover {
+  border-color: #333333;
+}
+
+.btn.success {
+  background-color: green;
+}
+
+.btn.success:hover {
+  border-color: pink;
+}
+
+.btn.danger {
+  background-color: red;
+}
+
+.btn.danger:hover {
+  border-color: brown;
+}
+/*# sourceMappingURL=custom.css.map */

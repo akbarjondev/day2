@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+* {
+  font-family: monospace;
+}
+
+// tabiiy sifatlari
+.btn {
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+// oddiy
+.btn.oddiy {
+  background-color: rgb(173, 170, 170);
+
+  &:hover {
+    border-color: #333333;
+  }
+}
+
+// muvaffaqiyatli
+.btn.success {
+  background-color: green;
+
+  &:hover {
+    border-color: pink;
+  }
+}
+
+// xavfli
+.btn.danger {
+  background-color: red;
+
+  &:hover {
+    border-color: brown;
+  }
+}
